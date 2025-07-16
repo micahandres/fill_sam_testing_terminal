@@ -1,0 +1,19 @@
+# == create conda environment (related to oscar)==
+- request interactive session LMAOOOOOOOOOO
+
+
+- 1. show important configurations for conda environment: conda info
+- 2. activate a conda environment in oscar: conda activate fill_sam_conda_env
+- 3. activate conda environment: conda activate grounding_dino_testing_conda_env
+    how to check? 
+        -> should show in terminal: (fill_sam_conda_env) fill_sam$
+        -> show all virtual environments: conda env list
+- 4. check python version: python --version
+- 5. download necessary packages for grounding dino
+    - conda install pytorch torchvision torchaudio pytorch-cuda=5.1 -c pytorch -c nvidia
+
+===
+
+fill_sam$ source ~/.bashrc
+(base) fill_sam$ conda activate fill_sam_conda_env
+(fill_sam_conda_env) fill_sam$ 
